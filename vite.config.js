@@ -1,6 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+  // Use /portfolio_final/ for GitHub Pages, / for Vercel
+  base: process.env.GITHUB_PAGES === "true" ? "/portfolio_final/" : "/",
+});
