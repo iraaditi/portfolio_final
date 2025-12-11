@@ -73,7 +73,7 @@ const Hero = () => {
           <div className="hero-image-container slide-in-right">
             <div className="hero-image">
               <img 
-                src="/profile.jpeg" 
+                src={`${import.meta.env.BASE_URL}profile.jpeg`} 
                 alt="Ira Aditi"
                 onError={(e) => {
                   e.target.src = 'data:image/svg+xml,%3Csvg width="300" height="300" xmlns="http://www.w3.org/2000/svg"%3E%3Crect width="300" height="300" fill="%23141b2d"/%3E%3Ccircle cx="150" cy="120" r="50" fill="%2364ffda"/%3E%3Cpath d="M 100 200 Q 150 180 200 200 L 200 300 L 100 300 Z" fill="%2364ffda"/%3E%3C/svg%3E';

@@ -15,7 +15,7 @@ const Projects = () => {
       ],
       github: 'https://github.com/iraaditi/chess-visualizer',
       demo: 'https://chezz.onrender.com/',
-      image: '/Screenshot 2025-12-11 225347.png'
+      image: `${import.meta.env.BASE_URL}Screenshot 2025-12-11 225347.png`
     },
     {
       title: 'Segmenta: AI Finance Manager',
@@ -28,7 +28,7 @@ const Projects = () => {
       ],
       github: 'https://github.com/iraaditi/Segmenta',
       demo: 'https://segmenta-flax.vercel.app/',
-      image: '/Screenshot 2025-12-11 225407.png'
+      image: `${import.meta.env.BASE_URL}Screenshot 2025-12-11 225407.png`
     }
   ];
 
