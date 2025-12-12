@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import { firebaseStorageUrls, getImageUrl } from '../config/firebaseStorage';
 import './Projects.css';
 
 const Projects = () => {
@@ -16,7 +15,7 @@ const Projects = () => {
       ],
       github: 'https://github.com/iraaditi/chess-visualizer',
       demo: 'https://chezz.onrender.com/',
-      image: getImageUrl(firebaseStorageUrls.projectImage1, `${import.meta.env.BASE_URL}Screenshot 2025-12-11 225347.png`)
+      image: `${import.meta.env.BASE_URL}Screenshot 2025-12-11 225347.png`
     },
     {
       title: 'Segmenta: AI Finance Manager',
@@ -29,7 +28,7 @@ const Projects = () => {
       ],
       github: 'https://github.com/iraaditi/Segmenta',
       demo: 'https://segmenta-flax.vercel.app/',
-      image: getImageUrl(firebaseStorageUrls.projectImage2, `${import.meta.env.BASE_URL}Screenshot 2025-12-11 225407.png`)
+      image: `${import.meta.env.BASE_URL}Screenshot 2025-12-11 225407.png`
     }
   ];
 
